@@ -1,5 +1,7 @@
 Apache Flink cluster deployment on docker using docker-compose
+
 From https://github.com/apache/flink/tree/master/flink-contrib/docker-flink
+
 
 # Installation
 
@@ -10,11 +12,14 @@ From https://github.com/apache/flink/tree/master/flink-contrib/docker-flink
 # Deploy
 
 - Deploy cluster and see config/setup log output
-
-```docker-compose up```
+```
+docker-compose up
+```
 
 
 - Deploy as a daemon (and return) 
-```docker-compose up -d```
+```
+docker-compose up -d
+```
 
 
